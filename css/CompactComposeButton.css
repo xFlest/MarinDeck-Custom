@@ -1,0 +1,27 @@
+/* ツイート送信画面のボタン類をコンパクトにする */
+.js-add-image-button.full-width.padding-v--6.padding-h--12,
+.js-schedule-button.full-width.padding-v--6.padding-h--12,
+.js-tweet-type-button > button.full-width.padding-v--6.padding-h--12 {
+  width: 34px !important;
+  height: 34px !important;
+  padding: 0 !important;
+  line-height: 34px !important;
+  text-align: center !important;
+}
+.js-add-image-button,
+.js-scheduler,
+.js-tweet-type-button {
+  display: inline-block !important;
+  margin-right: 12px !important;
+  position: relative;
+  bottom: 64px;
+}
+.js-schedule-button.is-disabled,
+.js-tweet-type-button > button.is-disabled {
+  opacity: 1 !important;
+}
+.js-add-image-button > span,
+.js-schedule-button > span,
+.js-tweet-type-button > button > span {
+  display: none !important;
+}
