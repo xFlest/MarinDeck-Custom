@@ -1,3 +1,4 @@
+/* ツイートの表示順を下から上に替える */
 .js-column-holder,
 .column-holder,
 .js-column-header,
@@ -9,5 +10,5 @@
 .js-column-loading-placeholder,
 .js-chirp-container > .list-placeholder,
 .is-shifted-1.js-column-state-detail-view .column-holder {
-  transform: rotate(180deg) !important
+  transform: rotate(180deg) !important;
 }
