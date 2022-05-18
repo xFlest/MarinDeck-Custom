@@ -1,0 +1,14 @@
+/* ツイートの表示順を上下逆に */
+.js-column-holder,
+.column-holder,
+.js-column-header,
+.column-header,
+.js-column-options-container,
+.js-stream-item,
+[data-testid='trend'],
+.column-message,
+.js-column-loading-placeholder,
+.js-chirp-container > .list-placeholder,
+.is-shifted-1.js-column-state-detail-view .column-holder {
+  transform: rotate(180deg) !important;
+}
