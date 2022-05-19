@@ -1,0 +1,48 @@
+/* コンパクトモード */
+/* media-size hidden推奨 */
+.js-tweet {
+  padding-left: 0 !important;
+}
+.js-tweet .tweet-header {
+  display: block !important;
+}
+.js-tweet .tweet-header > :is(a, time.tweet-timestamp) {
+  display: inline-block !important;
+  line-height: 20px !important;
+  vertical-align: text-top !important;
+}
+.js-tweet .tweet-header > .account-link {
+  max-width: calc(100% - 170px) !important;
+}
+.js-tweet .tweet-header > .tweet-timestamp {
+  max-width: 82px !important;
+}
+.js-tweet :is(.tweet-context, .tweet-img) {
+  margin-left: 0 !important;
+}
+.js-tweet .tweet-img {
+  width: 20px !important;
+}
+.js-tweet .tweet-img > .avatar {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 20% !important;
+  position: static !important;
+}
+.js-tweet .tweet-footer {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+}
+.js-tweet .tweet-footer > .js-tweet-actions {
+  float: none !important;
+  display: flex !important;
+}
+.js-tweet .tweet-action-item {
+  width: 20px !important;
+  margin: 0 !important;
+}
+.js-tweet .tweet-action > :not(i),
+.js-tweet .js-show-this-thread {
+  display: none !important;
+}
